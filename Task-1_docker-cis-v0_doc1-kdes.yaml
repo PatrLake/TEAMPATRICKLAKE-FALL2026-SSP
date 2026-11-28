@@ -1,0 +1,151 @@
+zero-shot: "element1:\n  name: \"Host Configuration\"\n  requirements:\n    - \"Ensure\
+  \ a separate partition for containers has been created (Manual)\"\n    - \"Ensure\
+  \ only trusted users are allowed to control Docker daemon (Manual)\"\n    - \"Ensure\
+  \ auditing is configured for the Docker daemon (Automated)\"\n    - \"Ensure auditing\
+  \ is configured for Docker files and directories - /run/containerd (Automated)\"\
+  \n    - \"Ensure auditing is configured for Docker files and directories - /var/lib/docker\
+  \ (Manual)\"\n    - \"Ensure auditing is configured for Docker files and directories\
+  \ - /etc/docker (Automated)\"\n    - \"Ensure auditing is configured for Docker\
+  \ files and directories - docker.service (Automated)\"\n    - \"Ensure auditing\
+  \ is configured for Docker files and directories - containerd.sock (Automated)\"\
+  \n    - \"Ensure auditing is configured for Docker files and directories - docker.socket\
+  \ (Automated)\"\n    - \"Ensure auditing is configured for Docker files and directories\
+  \ - /etc/default/docker (Automated)\"\n    - \"Ensure auditing is configured for\
+  \ Docker files and directories - /etc/docker/daemon.json (Automated)\"\n    - \"\
+  Ensure auditing is configured for Docker files and directories - /etc/containerd/config.toml\
+  \ (Automated)\"\n    - \"Ensure auditing is configured for Docker files and directories\
+  \ - /etc/sysconfig/docker (Automated)\"\n    - \"Ensure auditing is configured for\
+  \ Docker files and directories - /usr/bin/containerd (Automated)\"\n    - \"Ensure\
+  \ auditing is configured for Docker files and directories - /usr/bin/containerd-shim\
+  \ (Manual)\"\n    - \"Ensure auditing is configured for Docker files and directories\
+  \ - /usr/bin/containerd-shim-runc-v1 (Manual)\"\n    - \"Ensure auditing is configured\
+  \ for Docker files and directories - /usr/bin/containerd-shim-runc-v2 (Manual)\"\
+  \n    - \"Ensure auditing is configured for Docker files and directories - /usr/bin/unrum\
+  \ (Manual)\"\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n\
+  20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n\
+  40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n\
+  60\n61\n62\n63\n64\n65\n66\n67\n68\n69\n70\n71\n72\n73\n74\n75\n76\n77\n78\n79\n\
+  80\n81\n82\n83\n84\n85\n86\n87\n88\n89\n90\n91\n92\n93\n94\n95\n96\n97\n98\n99\n\
+  100\n101\n102\n103\n104\n105\n106\n107\n108\n109\n110\n111\n112\n113\n114\n115\n\
+  116\n117\n118\n119\n120\n121\n122\n123\n124\n125\n126\n127\n128\n129\n130\n131\n\
+  132\n133\n134\n135\n136\n137\n138\n139\n140\n141\n142"
+few-shot:
+  element1:
+    name: Host Configuration
+    requirements:
+    - Ensure a separate partition for containers has been created
+    - Ensure only trusted users are allowed to control Docker daemon
+    - Ensure auditing is configured for the Docker daemon
+    - Ensure auditing is configured for Docker files and directories - /run/containerd
+      (Automated)
+    - Ensure auditing is configured for Docker files and directories - /var/lib/docker
+      (Manual)
+    - Ensure auditing is configured for Docker files and directories - /etc/docker
+      (Automated)
+    - Ensure auditing is configured for Docker files and directories - docker.service
+      (Automated)
+    - Ensure auditing is configured for Docker files and directories - containerd.sock
+      (Automated)
+    - Ensure auditing is configured for Docker files and directories - docker.socket
+      (Automated)
+    - Ensure auditing is configured for Docker files and directories - /etc/default/docker
+      (Automated)
+    - Ensure auditing is configured for Docker files and directories - /etc/docker/daemon.json
+      (Automated)
+    - Ensure auditing is configured for Docker files and directories - /etc/containerd/config.toml
+      (Automated)
+    - Ensure auditing is configured for Docker files and directories - /etc/sysconfig/docker
+      (Automated)
+    - Ensure auditing is configured for Docker files and directories - /usr/bin/containerd
+      (Automated)
+    - Ensure auditing is configured for Docker files and directories - containerd-shim
+      (Manual)
+    - Ensure auditing is configured for Docker files and directories - runc-v1 (Manual)
+    - Ensure auditing is configured for Docker files and directories - runc-v2 (Manual)
+    - Ensure auditing is configured for Docker files and directories - uncronld (Manual)
+    - Ensure auditing is configured for Docker files and directories - docker.service
+      (Automated)
+    - Ensure auditing is configured for Docker files and directories - containerd.sock
+      (Automated)
+    - Ensure auditing is configured for Docker files and directories - docker.socket
+      (Automated)
+    - Ensure auditing is configured for Docker files and directories - /etc/default/docker
+      (Automated)
+    - Ensure auditing is configured for Docker files and directories - /etc/docker/daemon.json
+      (Automated)
+    - Ensure auditing is configured for Docker files and directories - /etc/containerd/config.toml
+      (Automated)
+    - Ensure auditing is configured for Docker files and directories - /etc/sysconfig/docker
+      (Automated)
+    - Ensure auditing is configured for Docker files and directories - /usr/bin/containerd
+      (Automated)
+    - Ensure auditing is configured for Docker files and directories - containerd-shim
+      (Manual)
+    - Ensure auditing is configured for Docker files and directories - runc-v1 (Manual)
+    - Ensure auditing is configured for Docker files and directories - runc-v2 (Manual)
+    - Ensure auditing is configured for Docker files and directories - uncronld (Manual)
+    - Ensure auditing is configured for Docker files and directories - docker.service
+      (Automated)
+    - Ensure auditing is configured for Docker files and directories - containerd.sock
+      (Automated)
+    - Ensure auditing is configured for Docker files and directories - docker.socket
+      (Automated)
+    - Ensure auditing is configured for Docker files and directories - /etc/default/docker
+      (Automated)
+    - Ensure auditing is configured for Docker files and directories - /etc/docker/daemon.json
+      (Automated)
+    - Ensure auditing is configured for Docker files and directories - /etc/containerd/config.toml
+      (Automated)
+    - Ensure auditing is configured for Docker files and directories - /etc/sysconfig/docker
+      (Automated)
+    - Ensure auditing is configured for Docker files and directories - /usr/bin/containerd
+      (Automated)
+    - Ensure auditing is configured for Docker files and directories - containerd-shim
+      (Manual)
+chain-of-thought: "element1:\n  name: Host Configuration\n  requirements:\n    - Ensure\
+  \ a separate partition for containers has been created (Manual)\n    - Ensure only\
+  \ trusted users are allowed to control Docker daemon (Manual)\n    - Ensure auditing\
+  \ is configured for the Docker daemon (Automated)\n    - Ensure auditing is configured\
+  \ for Docker files and directories - /run/containerd (Automated)\n    - Ensure auditing\
+  \ is configured for Docker files and directories - /var/lib/docker (Manual)\n  \
+  \  - Ensure auditing is configured for Docker files and directories - /etc/docker\
+  \ (Automated)\n    - Ensure auditing is configured for Docker files and directories\
+  \ - docker.service (Automated)\n    - Ensure auditing is configured for Docker files\
+  \ and directories - containerd.sock (Automated)\n    - Ensure auditing is configured\
+  \ for Docker files and directories - docker.socket (Automated)\n    - Ensure auditing\
+  \ is configured for Docker files and directories - /etc/default/docker (Automated)\n\
+  \    - Ensure auditing is configured for Docker files and directories - /etc/docker/daemon.json\
+  \ (Automated)\n    - Ensure auditing is configured for Docker files and directories\
+  \ - /etc/containerd/config.toml (Automated)\n    - Ensure auditing is configured\
+  \ for Docker files and directories - /etc/sysconfig/docker (Automated)\n    - Ensure\
+  \ auditing is configured for Docker files and directories - /usr/bin/containerd\
+  \ (Automated)\n    - Ensure auditing is configured for Docker files and directories\
+  \ - /usr/bin/containerd-shim (Manual)\n    - Ensure auditing is configured for Docker\
+  \ files and directories - /usr/bin/containerd-shim-runc-v1 (Manual)\n    - Ensure\
+  \ auditing is configured for Docker files and directories - /usr/bin/containerd-shim-runc-v2\
+  \ (Manual)\n    - Ensure auditing is configured for Docker files and directories\
+  \ - /usr/bin/unstable (Manual)\n1.2 General Configuration\n1.2.1 Ensure the container\
+  \ host has been Hardened (Manual)\n1.2.2 Ensure that the version of Docker is up\
+  \ to date (Manual)\n2 Docker daemon configuration\n2.1 Run the Docker daemon as\
+  \ a non-root user, if possible (Manual)\n2.2 Ensure network traffic is restricted\
+  \ between containers on the default bridge (Manual)\n2.3 Ensure the logging level\
+  \ is set to 'info' (Manual)\n2.4 Ensure Docker is allowed to make changes to iptables\
+  \ (Manual)\n2.5 Ensure insecure registries are not used (Manual)\n2.6 Ensure that\
+  \ aufs storage driver is not used (Manual)\n2.7 Ensure TLS authentication for Docker\
+  \ daemon is configured (Manual)\n2.8 Ensure the default ulimit is configured appropriately\
+  \ (Manual)\n2.9 Enable user namespace support (Manual)\n2.10 Ensure the default\
+  \ cgroup usage has been confirmed (Manual)\n2.11 Ensure that base device size is\
+  \ not changed until needed (Manual)\n2.12 Ensure that authorization for Docker client\
+  \ commands is enabled (Manual)\n2.13 Ensure centralized and remote logging is configured\
+  \ (Manual)\n2.14 Ensure containers are restricted from acquiring new privileges\
+  \ (Manual)\n2.15 Ensure live restore is enabled (Manual)\n2.16 Ensure Userland Proxy\
+  \ is Disabled (Manual)\n2.17 Ensure that a daemon-wide custom seccomp profile is\
+  \ applied if appropriate (Manual)\n2.18 Ensure that experimental features are not\
+  \ implemented in production (Manual)\n3 Docker daemon configuration files\n3.1 Ensure\
+  \ that the docker.service file ownership is set to root:root (Automated)\n3.2 Ensure\
+  \ that docker.service file permissions are properly set (Automated)\n3.3 Ensure\
+  \ that docker.socket file ownership is set to root:root (Automated)\n3.4 Ensure\
+  \ that docker.socket file permissions are set to 644 or more restrictive (Automated)\n\
+  3.5 Ensure that the /etc/docker directory ownership is set to root:root (Automated)\n\
+  3.6 Ensure that /etc/docker directory permissions are set to 755 or more restrictively\
+  \ (Automated)"
